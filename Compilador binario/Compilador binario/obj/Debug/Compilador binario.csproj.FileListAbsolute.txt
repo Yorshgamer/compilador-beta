@@ -1,0 +1,10 @@
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.csproj.AssemblyReference.cache
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador_binario.Form1.resources
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador_binario.Properties.Resources.resources
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.csproj.GenerateResource.cache
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.csproj.CoreCompileInputs.cache
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\bin\Debug\Compilador binario.exe.config
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\bin\Debug\Compilador binario.exe
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\bin\Debug\Compilador binario.pdb
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.exe
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.pdb

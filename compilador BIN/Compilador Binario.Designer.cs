@@ -47,6 +47,11 @@
             this.btnAgregarS = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnLeerS = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -449,9 +454,9 @@
             // richTextBox2
             // 
             this.richTextBox2.BackColor = System.Drawing.Color.DarkGray;
-            this.richTextBox2.Location = new System.Drawing.Point(36, 213);
+            this.richTextBox2.Location = new System.Drawing.Point(36, 384);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(318, 147);
+            this.richTextBox2.Size = new System.Drawing.Size(318, 46);
             this.richTextBox2.TabIndex = 17;
             this.richTextBox2.Text = "";
             // 
@@ -520,11 +525,74 @@
             this.btnLeerS.UseVisualStyleBackColor = true;
             this.btnLeerS.Click += new System.EventHandler(this.btnLeerS_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
+            this.label6.Location = new System.Drawing.Point(143, 363);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(90, 18);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Convertido";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.DarkGray;
+            this.richTextBox3.Location = new System.Drawing.Point(36, 237);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(318, 123);
+            this.richTextBox3.TabIndex = 26;
+            this.richTextBox3.Text = "";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Control;
+            this.label7.Location = new System.Drawing.Point(33, 216);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(80, 18);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "Direccion";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.Control;
+            this.label8.Location = new System.Drawing.Point(143, 216);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(85, 18);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "Nemonico";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.Control;
+            this.label9.Location = new System.Drawing.Point(252, 216);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(82, 18);
+            this.label9.TabIndex = 29;
+            this.label9.Text = "Operando";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnLeerS);
             this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.btnAgregarS);
@@ -543,7 +611,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Compilador Binario";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -569,6 +637,11 @@
         private MaterialSkin.Controls.MaterialRaisedButton btnAgregarS;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
         private MaterialSkin.Controls.MaterialRaisedButton btnLeerS;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }
 

@@ -161,21 +161,27 @@ namespace Compilador_binario
             textBox2.Clear();
             richTextBox1.Clear();
             richTextBox2.Clear();
+            richTextBox3.Clear();
         }
 
         public void btnAgregarS_Click(object sender, EventArgs e)
         {
+            string direccion = comboBox1.Text;
+            string nemonic = Nemonico.Text;
+            string operand = textBox2.Text;
             string hexa = lblHex.Text;
             StringReader obtDats = new StringReader(hexa);
 
             string linea2;
             string Convert;
+            string palbox3;
             try
             {
                 linea2 = obtDats.ReadLine();
                 Convert = HexadecimalConverter.ToASCII(linea2);
+                palbox3 = direccion+"                      "+nemonic+"                     "+operand+"\n";
                 richTextBox2.AppendText(Convert);
-
+                richTextBox3.AppendText(palbox3);
 
             }
             catch

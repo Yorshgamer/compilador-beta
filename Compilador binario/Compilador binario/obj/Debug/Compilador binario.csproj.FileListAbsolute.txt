@@ -8,3 +8,5 @@ C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador bina
 C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\bin\Debug\Compilador binario.pdb
 C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.exe
 C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.pdb
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\bin\Debug\MaterialSkin.dll
+C:\Users\WINDOWS11\Documents\Visual proyectos\Compilador binario\Compilador binario\obj\Debug\Compilador binario.csproj.CopyComplete
